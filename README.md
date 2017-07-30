@@ -1,3 +1,11 @@
+# bhansa's blog 
+ - theme - Kasper  
+
+Hosted on github, feel free to fork.
+
+Starting with Kasper
+====================
+
 # Kasper
 
 > This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 

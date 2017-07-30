@@ -1,17 +1,17 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: bhansa's blog
+description: Thoughts, projects and lot more...
+meta_description: "bhansa's blog(Bharat Saraswat), writing about python projects, django and lots of other things"
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'https://bhansa.github.com'
+google_analytics: 'UA-80356944-1'
 plugins: [jekyll-paginate]
 
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'https://bhansa.github.io'
+author:         'Bharat Saraswat'
