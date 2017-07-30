@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: https://bhansa.github.io
+baseurl: /
 domain_name: 'https://bhansa.github.com'
 google_analytics: 'UA-80356944-1'
 plugins: [jekyll-paginate]
