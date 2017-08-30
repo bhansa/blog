@@ -1,0 +1,20 @@
+{
+  "short_name": "bhansa's blog",
+  "name": "bhansa's blog",
+  "icons": [
+    {
+      "src": "/assets/images/icons/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+  },{
+      "src": "/assets/images/icons/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+  }
+  ],
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3",
+  "orientation": "any"
+}
