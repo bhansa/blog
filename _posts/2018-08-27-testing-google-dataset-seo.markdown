@@ -4,13 +4,19 @@ title:	"testing for google seo dataset"
 categories:	testing
 ---
 
-<script type="text/json+ld">
+<script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "Dataset",
         "name": "Test database",
         "description": "SEO test - DATASET",
-        "@Dataset": "https://bhansa.github.io/test-dataset.csv"
+        "url": "https://bhansa.github.io/test-dataset.csv",
+        "keywords":[
+            "football scores", 
+            "testing dataset",
+            "bhansa",
+            "bhansa blog dataset"
+        ]
     }
 </script>
 
