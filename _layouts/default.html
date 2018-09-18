@@ -52,8 +52,8 @@
     <script type="text/javascript" src="/assets/js/index.js"></script>
   
   <!-- disqus script -->
-  <div id="disqus_thread"></div>
-  <script>
+  <!-- <div id="disqus_thread"></div> -->
+  <!-- <script>
 
   /**
   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -71,7 +71,7 @@
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
   })();
-  </script>
+  </script> -->
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   
 
@@ -94,6 +94,17 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2BFBMG"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Adding sw code -->
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker
+            .register('sw.js')
+            .then(function(){
+              console.log('serviceWorker registered!');
+            })
+      }
+    </script>
 
 </body>
 </html>
