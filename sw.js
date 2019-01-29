@@ -4,7 +4,7 @@
   ============================================
 */
 
-self.importScripts('sw-toolbox.js');
+self.importScripts('/assets/js/sw-toolbox.js');
 
 self.toolbox.precache([
 	'offline.html'
