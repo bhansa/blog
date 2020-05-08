@@ -4,23 +4,22 @@
   ============================================
 */
 
-self.importScripts('/assets/js/sw-toolbox.js');
+self.importScripts("/assets/js/sw-toolbox.js");
+self.importScripts("/assets/js/idb-wrapper.js");
 
-self.toolbox.precache([
-	'offline.html'
-]);
-
-
-self.toolbox.router.get('/(.*)', function(req, vals, opts){
-
-    return toolbox.networkFirst(req, vals, opts)
-    .catch(function(error){
-        if(req.method === 'GET' && req.headers.get('accept').includes('text/html')){
-			return toolbox.cacheOnly(new Request('offline.html'), vals, opts);
-        }
-        throw error;
-    });
-
+self.addEventListener("install", function (event) {
+  event.waitUntil(
+    idbKeyval.get("promosData").then((data) => {
+      self.toolbox.precache([data.url]);
+    })
+  );
 });
 
-console.log('%cFiles cached', 'color: green; font-size: 40px');
+// intercept fetch
+self.addEventListener("fetch", function (event) {
+  event.respondWith(
+    caches.match(event.request).then(function (response) {
+      return response || fetch(event.request);
+    })
+  );
+});
