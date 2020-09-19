@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[bhansa's blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 19 Sep 2020 10:13:54 GMT</lastBuildDate><item><title><![CDATA[Creating a Gatsby blog site]]></title><description><![CDATA[Creating a blog site using Gatsby is pretty easy and it can be done within few minutes. Gatsby has given a really good documentation which…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/creating-a-gatsby-blog-site/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/creating-a-gatsby-blog-site/</guid><pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[bhansa's blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 19 Sep 2020 10:24:03 GMT</lastBuildDate><item><title><![CDATA[Creating a Gatsby blog site]]></title><description><![CDATA[Creating a blog site using Gatsby is pretty easy and it can be done within few minutes. Gatsby has given a really good documentation which…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/creating-a-gatsby-blog-site/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/creating-a-gatsby-blog-site/</guid><pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png&quot;
+    href=&quot;/blog/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -17,10 +17,10 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;gatsby icon&quot;
         title=&quot;gatsby icon&quot;
-        src=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png&quot;
-        srcset=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/12f09/gatsby-icon.png 148w,
-/static/4a9773549091c227cd2eb82ccd9c5e3a/e4a3f/gatsby-icon.png 295w,
-/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png 512w&quot;
+        src=&quot;/blog/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png&quot;
+        srcset=&quot;/blog/static/4a9773549091c227cd2eb82ccd9c5e3a/12f09/gatsby-icon.png 148w,
+/blog/static/4a9773549091c227cd2eb82ccd9c5e3a/e4a3f/gatsby-icon.png 295w,
+/blog/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/gatsby-icon.png 512w&quot;
         sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
