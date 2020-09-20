@@ -2,6 +2,7 @@
 title: Creating a jquery plugin
 date: "2020-09-21"
 description: "A jQuery plugin is simply a new method that we use to extend jQuery's prototype object. By extending the prototype object you enable all jQuery objects to inherit any methods that you add. - Jquery"
+draft: true
 ---
 
 Jquery has been used quite largely in many web projects because it gives you all javascript functions and commands wrapped in a nice API interface. For example: "jquery selectors", used very heavily.
@@ -14,7 +15,7 @@ Example usage of bootstrap modal:
 $("#target").modal("show")
 ```
 
-Whenver we use `$` instead of `document.querySelector()` it returns a jquery object which has some methods available like `.css(), .click() etc.`
+Whenver we use `$` instead of `document.querySelector()` it returns a jquery object which has some methods available like `.css(), .click()` etc.
 
 > Jquery object gets these methods from `$.fn` object
 
