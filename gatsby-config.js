@@ -1,12 +1,13 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
     title: `bhansa's blog`,
     author: {
       name: `bhansa`,
       summary: `who lives in Bikaner building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Bharat Saraswat (bhansa) writes about Python, JavaScript and other cool things`,
+    siteUrl: `https://bhansa.github.io/blog`,
     social: {
       twitter: `293bharat`,
     },
@@ -60,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `bhansa's blog`,
+        short_name: `bhansa's blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
