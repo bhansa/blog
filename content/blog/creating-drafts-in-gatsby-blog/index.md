@@ -4,6 +4,9 @@ date: "2020-09-21"
 description: "In this blog post I will talk about a simple way of creating draft blog post in your gatsby site"
 ---
 
+![image shows draft process by andrew neel](./andrew-neel-cckf4TsHAuw-unsplash.jpg)  
+<span>Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/s/photos/draft?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 You have created your new blog and have many ideas for blog posts already. You probably will create a list of blog post titles or some drafts directly in your project so that you can work on them later.
 
 While you were writing a blog post you got another title in your mind to write, You abandoned the current article and moved to write a new one.
@@ -104,6 +107,6 @@ and use it in the render method where we are rendering a list of all blog posts.
 
 If you see, I have used **`hidden={node.frontmatter.draft}`** where **hidden** is a HTML element attribute.
 
-Here I am only hiding the post from the all blogs list, you can choose to do other things as well, example: not rendering it completelty.
+Here I am only hiding the post from the all blogs list, you can choose to do other things as well, example: not rendering it completely.
 
 That's it. Now if you want to work on posts and don't want to deploy them with other created posts, you can just put `draft: true` in your frontmatter and remove it once it is ready to go live 😃✨
