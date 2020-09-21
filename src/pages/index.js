@@ -21,6 +21,7 @@ const BlogIndex = ({ data, location }) => {
             key={node.fields.slug}
             itemScope
             itemType="http://schema.org/Article"
+            hidden={node.frontmatter.draft}
           >
             <header>
               <h3
@@ -73,6 +74,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            draft
           }
         }
       }
