@@ -91,3 +91,5 @@ Above function reads the passed jquery object and updates the first letter of th
   See the Pen <a href='https://codepen.io/bhansa/pen/GRZPBRE'>GRZPBRE</a> by Bharat Saraswat
   (<a href='https://codepen.io/bhansa'>@bhansa</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+Thanks for reading, I hope it was helpful in some way 😃✨
