@@ -1,5 +1,5 @@
 ---
-title: Creating draft blog post in Gatsby
+title: Drafting blog posts in Gatsby
 date: "2020-09-21"
 description: "In this blog post I will talk about a simple way of creating draft blog post in your gatsby site"
 ---
