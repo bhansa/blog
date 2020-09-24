@@ -93,3 +93,9 @@ Above function reads the passed jquery object and updates the first letter of th
 </iframe>
 
 Thanks for reading, I hope it was helpful in some way 😃✨
+
+---
+
+#### References
+
+[Advance plugin concepts](https://learn.jquery.com/plugins/advanced-plugin-concepts/)
